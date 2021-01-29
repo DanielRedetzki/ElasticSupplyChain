@@ -60,6 +60,130 @@
           animation-fill-mode: forwards;
 }
 
+.App-logo-static {
+  width: width(120px);
+  height: height(300px);
+}
+
+.App-Bike-Move-Forward {
+  width: width(120px);
+  height: height(300px);
+  -webkit-animation-name: App-Bike-Move-Forward;
+          animation-name: App-Bike-Move-Forward;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.App-Bike-Move-Backward {
+  width: width(120px);
+  height: height(300px);
+  -webkit-animation-name: App-Bike-Move-Backward;
+          animation-name: App-Bike-Move-Backward;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.App-logo-static {
+  width: width(240px);
+  height: height(120px);
+}
+
+.App-Bike-Move-Forward {
+  width: width(240px);
+  height: height(120px);
+  -webkit-animation-name: App-Bike-Move-Forward;
+          animation-name: App-Bike-Move-Forward;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.App-Bike-Move-Backward {
+  width: width(240px);
+  height: height(120px);
+  -webkit-animation-name: App-Bike-Move-Backward;
+          animation-name: App-Bike-Move-Backward;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.App-logo-static {
+  width: width(240px);
+  height: height(240px);
+}
+
+.App-Bike-Move-Forward {
+  width: width(240px);
+  height: height(240px);
+  -webkit-animation-name: App-Bike-Move-Forward;
+          animation-name: App-Bike-Move-Forward;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.App-Bike-Move-Backward {
+  width: width(240px);
+  height: height(240px);
+  -webkit-animation-name: App-Bike-Move-Backward;
+          animation-name: App-Bike-Move-Backward;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.App-logo-static {
+  width: width(240px);
+  height: height(240px);
+}
+
+.App-Bike-Move-Forward {
+  width: width(240px);
+  height: height(240px);
+  -webkit-animation-name: App-Bike-Move-Forward;
+          animation-name: App-Bike-Move-Forward;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.App-Bike-Move-Backward {
+  width: width(240px);
+  height: height(240px);
+  -webkit-animation-name: App-Bike-Move-Backward;
+          animation-name: App-Bike-Move-Backward;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
 .App {
   text-align: center;
 }

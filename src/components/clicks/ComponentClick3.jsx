@@ -1,4 +1,4 @@
-function ComponentClick1() {
+function ComponentClick3() {
     
     let move=false;
 
@@ -7,15 +7,15 @@ function ComponentClick1() {
         move = !move
 
         if (move===true) {
+            document.querySelector('#Component1').className = "App-Bike-Move-Forward";
             document.querySelector('#Component2').className = "App-Bike-Move-Forward";
-            document.querySelector('#Component3').className = "App-Bike-Move-Forward";
             document.querySelector('#Component4').className = "App-Bike-Move-Forward";
             document.querySelector('#Component5').className = "App-Bike-Move-Forward";
             document.querySelector('#Component6').className = "App-Bike-Move-Forward";
             console.log(true)
         } else if(move===false){
+            document.querySelector('#Component1').className = "App-Bike-Move-Backward";
             document.querySelector('#Component2').className = "App-Bike-Move-Backward";
-            document.querySelector('#Component3').className = "App-Bike-Move-Backward";
             document.querySelector('#Component4').className = "App-Bike-Move-Backward";
             document.querySelector('#Component5').className = "App-Bike-Move-Backward";
             document.querySelector('#Component6').className = "App-Bike-Move-Backward";
@@ -25,10 +25,10 @@ function ComponentClick1() {
     
     
     return (
-        <div className="item-1" onClick={clickHandler}>
-            <img id="Component1" src="images/Component_1.JPG" className="App-logo-static" alt="logo" width="120px" height="120px" />
+        <div className="item-3" onClick={clickHandler}>
+            <img id="Component3" src="images/Component_3.JPG" className="App-logo-static" alt="logo" width="120px" height="300px"/>
         </div>
     )
 }
 
-export default ComponentClick1
+export default ComponentClick3
