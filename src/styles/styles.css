@@ -1,28 +1,11 @@
-.App {
-  text-align: center;
-}
-
 .App-logo-static {
-  width: 120px;
-  height: 120px;
-  /* z-index: 1; */
+  width: width(120px);
+  height: height(120px);
 }
 
-.App-logo-static2 {
-  width: 100px;
-  height: 50px;
-  position: absolute;
-  /* z-index: 1; */
-}
-
-/*
-  .App-logo {
-    height: 40vmin;
-    pointer-events: none;
-  } */
 .App-Bike-Move-Forward {
-  width: 120px;
-  height: 120px;
+  width: width(120px);
+  height: height(120px);
   -webkit-animation-name: App-Bike-Move-Forward;
           animation-name: App-Bike-Move-Forward;
   -webkit-animation-duration: 4s;
@@ -34,8 +17,8 @@
 }
 
 .App-Bike-Move-Backward {
-  width: 120px;
-  height: 120px;
+  width: width(120px);
+  height: height(120px);
   -webkit-animation-name: App-Bike-Move-Backward;
           animation-name: App-Bike-Move-Backward;
   -webkit-animation-duration: 4s;
@@ -46,6 +29,51 @@
           animation-fill-mode: forwards;
 }
 
+.App-logo-static {
+  width: width(360px);
+  height: height(240px);
+}
+
+.App-Bike-Move-Forward {
+  width: width(360px);
+  height: height(240px);
+  -webkit-animation-name: App-Bike-Move-Forward;
+          animation-name: App-Bike-Move-Forward;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.App-Bike-Move-Backward {
+  width: width(360px);
+  height: height(240px);
+  -webkit-animation-name: App-Bike-Move-Backward;
+          animation-name: App-Bike-Move-Backward;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo-static2 {
+  width: 360px;
+  height: 240px;
+}
+
+/*
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  } */
 /*
    @media (prefers-reduced-motion: no-preference) {
     .App-logo {

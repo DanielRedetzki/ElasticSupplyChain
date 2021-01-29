@@ -1,0 +1,25 @@
+$componentWidth1: width(120px);
+$componentHeight1: height(120px);
+
+  .App-logo-static {
+    width: $componentWidth1;
+    height: $componentHeight1;
+  }
+
+  .App-Bike-Move-Forward {
+    width: $componentWidth1;
+    height: $componentHeight1; 
+    animation-name: App-Bike-Move-Forward;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+  }
+  
+  .App-Bike-Move-Backward {
+    width: $componentWidth1;
+    height: $componentHeight1; 
+    animation-name: App-Bike-Move-Backward;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+  }

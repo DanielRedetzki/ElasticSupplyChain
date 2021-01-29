@@ -7,10 +7,10 @@ function ComponentClick1() {
         move = !move
 
         if (move===true) {
-            document.querySelector("img").className = "App-Bike-Move-Forward";
+            document.querySelector('#Component1').className = "App-Bike-Move-Forward";
             console.log(true)
         } else if(move===false){
-            document.querySelector("img").className = "App-Bike-Move-Backward";
+            document.querySelector('#Component1').className = "App-Bike-Move-Backward";
             console.log(false)
         }
     }
@@ -18,7 +18,7 @@ function ComponentClick1() {
     
     return (
         <div class="item-1" onClick={clickHandler}>
-            <img src="images/Component_1.JPG" className="App-logo-static" alt="logo" width="120px" height="120px" />
+            <img id="Component1" src="images/Component_1.JPG" className="App-logo-static" alt="logo" width="120px" height="120px" />
         </div>
     )
 }

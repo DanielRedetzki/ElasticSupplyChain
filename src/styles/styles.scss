@@ -1,19 +1,19 @@
+@import "./component1";
+@import "./component2";
+
 .App {
     text-align: center;
   }
   
-  .App-logo-static {
-    width: 120px;
-    height: 120px;
-    /* z-index: 1; */
-  }
+//   .App-logo-static {
+//     width: $componentWidth1;
+//     height: $componentHeight1;
+//   }
   
   
   .App-logo-static2 {
-    width: 100px;
-    height: 50px;
-    position: absolute;
-    /* z-index: 1; */
+    width: 360px;
+    height: 240px;
   }
   
   /*
@@ -24,23 +24,23 @@
   
   
   
-  .App-Bike-Move-Forward {
-    width: 120px;
-    height: 120px; 
-    animation-name: App-Bike-Move-Forward;
-    animation-duration: 4s;
-    animation-timing-function: linear;
-    animation-fill-mode: forwards;
-  }
+//   .App-Bike-Move-Forward {
+//     width: 120px;
+//     height: 120px; 
+//     animation-name: App-Bike-Move-Forward;
+//     animation-duration: 4s;
+//     animation-timing-function: linear;
+//     animation-fill-mode: forwards;
+//   }
   
-  .App-Bike-Move-Backward {
-    width: 120px;
-    height: 120px; 
-    animation-name: App-Bike-Move-Backward;
-    animation-duration: 4s;
-    animation-timing-function: linear;
-    animation-fill-mode: forwards;
-  }
+//   .App-Bike-Move-Backward {
+//     width: 120px;
+//     height: 120px; 
+//     animation-name: App-Bike-Move-Backward;
+//     animation-duration: 4s;
+//     animation-timing-function: linear;
+//     animation-fill-mode: forwards;
+//   }
   
   /*
    @media (prefers-reduced-motion: no-preference) {
