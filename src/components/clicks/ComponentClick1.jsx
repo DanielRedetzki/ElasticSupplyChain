@@ -1,6 +1,4 @@
-import react from 'react'
-
-function PictureClick() {
+function ComponentClick1() {
     
     let move=false;
 
@@ -19,10 +17,10 @@ function PictureClick() {
     
     
     return (
-        <div onClick={clickHandler}>
-            <img src="images/Bike1.JPG" className="App-logo-static" alt="logo" width="500px" height="300px" />
+        <div class="item-1" onClick={clickHandler}>
+            <img src="images/Component_1.JPG" className="App-logo-static" alt="logo" width="120px" height="120px" />
         </div>
     )
 }
 
-export default PictureClick
+export default ComponentClick1

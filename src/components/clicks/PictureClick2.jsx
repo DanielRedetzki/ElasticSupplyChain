@@ -1,6 +1,6 @@
 import react from 'react'
 
-function PictureClick() {
+function PictureClick2() {
     
     let move=false;
 
@@ -20,9 +20,9 @@ function PictureClick() {
     
     return (
         <div onClick={clickHandler}>
-            <img src="images/Bike1.JPG" className="App-logo-static" alt="logo" width="500px" height="300px" />
+            <img src="images/White.JPG" className="App-logo-static2" alt="logo" width="100px" height="50px"/>
         </div>
     )
 }
 
-export default PictureClick
+export default PictureClick2

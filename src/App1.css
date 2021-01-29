@@ -1,0 +1,184 @@
+.App {
+    text-align: center;
+    height: 1920px;
+    width: 1080px;
+  }
+  
+  .App-logo-static {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    /* z-index: 1; */
+  }
+  
+  
+  .App-logo-static2 {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    /* z-index: 1; */
+  }
+  
+  /*
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  } */
+  
+  
+  
+  .App-Bike-Move-Forward {
+    width: 500px;
+    height: 300px; 
+    animation-name: App-Bike-Move-Forward;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+  }
+  
+  .App-Bike-Move-Backward {
+    width: 500px;
+    height: 300px; 
+    animation-name: App-Bike-Move-Backward;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+  }
+  
+  /*
+   @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  } */
+  
+  .App-header {
+    background-color: #282c34;
+    height: 1820px;
+    width: 980px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  .main-container {
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    margin: 0;
+    background-color: red;
+    position: relative;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template: repeat(3, [row] minmax(120px, 1fr)) / repeat(4, [col] 1fr);
+      grid-gap: 20px;
+  }
+  .item-1,
+  .item-2,
+  .item-3,
+  .item-4,
+  .item-5,
+  .item-6 {
+    align-items: center;
+    justify-items: center;
+    font-family: 'Overpass', sans-serif;
+    font-size: 4em;
+    line-height: 1;
+    color: white;
+  }
+  .item-1 {
+    grid-column: col 1 / span 4;
+    grid-row: row 1;
+    background: linear-gradient(to left, #6441a5, #2a0845);
+  }
+  
+  .item-2 {
+    grid-column: col 4;
+    grid-row: row 1 / span 3;
+    background: linear-gradient(to right, #ffb347, #ffcc33);
+    opacity: 0.8;
+  }
+  
+  .item-3 {
+    grid-column: col 1;
+    grid-row: row 2 / span 2;
+    background: linear-gradient(to top, #d38312, #a83279);
+    z-index: 1;
+    opacity: 0.8;
+  }
+  
+  .item-4 {
+    grid-column: col 2 / span 2;
+    grid-row: row 2;
+    background: linear-gradient(to left, #b3ffab, #12fff7);
+  }
+  
+  .item-5 {
+    grid-column: col 1;
+    grid-row: row 3;
+    background: linear-gradient(to top, #485563, #29323c);
+  }
+  
+  .item-6 {
+    grid-column: col 2 / span 3;
+    grid-row: row 3;
+    background: linear-gradient(to right, #fe8c00, #f83600);
+  }
+
+  /*
+  .anime { animation: turner 4s infinite linear }
+  
+  @keyframes turner{
+    0% {transform: translateX(0px)}
+    25% {transform: translateX(-50px)}
+    50% {transform: translateX(-100px)}
+    75% {transform: translateX(-150px)}
+    100% {transform: translateX(-1200px)}
+  } */
+  
+  
+  @keyframes App-Bike-Move-Forward {
+    0% {transform: translateX(0px)}
+    25% {transform: translateX(-400px)}
+    50% {transform: translateX(-800px)}
+    75% {transform: translateX(-1200px)}
+    100% {transform: translateX(-1600px)}
+  }
+  
+  @keyframes App-Bike-Move-Backward {
+    0% {transform: translateX(-1600px)}
+    25% {transform: translateX(-1200px)}
+    50% {transform: translateX(-800px)}
+    75% {transform: translateX(-400px)}
+    100% {transform: translateX(-0px)}
+  }
+  
+  /*
+  @keyframes App-Bike-Move-Backward {
+    from {
+      transform: translateX(-1500px);
+    }
+    to {
+      transform: translateX(0px);
+    }
+  }
+  */
+  
+  /*
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  } */
