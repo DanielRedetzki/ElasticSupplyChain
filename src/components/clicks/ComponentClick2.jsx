@@ -2,11 +2,14 @@ function ComponentClick2() {
     
     let move=false;
 
-    function clickHandler(){
+    function clickHandler(clicked_id){
         
         move = !move
 
         if (move===true) {
+
+            console.log(clicked_id.target.id)
+
             document.querySelector('#Component1').className = "App-Bike-Move-Forward";
             document.querySelector('#Component3').className = "App-Bike-Move-Forward";
             document.querySelector('#Component4').className = "App-Bike-Move-Forward";
