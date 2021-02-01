@@ -4,6 +4,7 @@
 @import "./component4";
 @import "./component5";
 @import "./component6";
+@import "./component7";
 
 .App {
     text-align: center;
@@ -78,7 +79,8 @@
   .item-3,
   .item-4,
   .item-5,
-  .item-6 {
+  .item-6,
+  .item-7 {
     align-items: center;
     justify-items: center;
     font-family: 'Overpass', sans-serif;
@@ -127,6 +129,13 @@
     background: linear-gradient(to right, #fe8c00, #f83600);
   }
 
+  .item-7 {
+    grid-column: col 4 / span 6;
+    grid-row: row 3 / span 4;
+    z-index: 2;
+    background: linear-gradient(to right, #fe8c00, #f83600);
+  }
+
   /*
   .anime { animation: turner 4s infinite linear }
   
@@ -138,6 +147,10 @@
     100% {transform: translateX(-1200px)}
   } */
   
+  .d-none {
+    display: none;
+  }
+
   
   @keyframes App-Bike-Move-Forward {
     0% {transform: translateX(0px)}

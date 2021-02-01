@@ -25,7 +25,7 @@ function ComponentClick5() {
     
     
     return (
-        <div className="item-5" onClick={clickHandler}>
+        <div className="item-5 component" onClick={clickHandler}>
             <img id="Component5" src="images/Component_5.JPG" className="App-logo-static" alt="logo" width="240px" height="240px"/>
         </div>
     )

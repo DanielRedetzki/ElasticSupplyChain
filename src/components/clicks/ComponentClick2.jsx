@@ -28,7 +28,7 @@ function ComponentClick2() {
     
     
     return (
-        <div className="item-2" onClick={clickHandler}>
+        <div className="item-2 component" onClick={clickHandler}>
             <img id="Component2" src="images/Component_2.JPG" className="App-logo-static" alt="logo" width="360px" height="240px"/>
         </div>
     )
