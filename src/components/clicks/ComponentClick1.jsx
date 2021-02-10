@@ -18,7 +18,7 @@ function ComponentClick1() {
         //console.log(tests)
 
         for (const test of tests) {
-            const childrenId = test.children
+            const childrenId = test.parentElement.className
             console.log(childrenId)
             //test.children.classList.toggle("d-none")
             test.classList.toggle("item-2")
@@ -49,12 +49,7 @@ function ComponentClick1() {
                             //componentPicture.className = "d-none";
             }
 
-            // document.querySelector('#Component2').className = "App-Bike-Move-Forward";
-            // document.querySelector('#Component3').className = "App-Bike-Move-Forward";
-            // document.querySelector('#Component4').className = "App-Bike-Move-Forward";
-            // document.querySelector('#Component5').className = "App-Bike-Move-Forward";
-            // document.querySelector('#Component6').className = "App-Bike-Move-Forward";
-            // console.log(move)
+            
         } else if(move===false){
 
             for(const componentPicture of componentPictures) {
@@ -66,12 +61,7 @@ function ComponentClick1() {
                         }
             }
 
-            // document.querySelector('#Component2').className = "App-Bike-Move-Backward";
-            // document.querySelector('#Component3').className = "App-Bike-Move-Backward";
-            // document.querySelector('#Component4').className = "App-Bike-Move-Backward";
-            // document.querySelector('#Component5').className = "App-Bike-Move-Backward";
-            // document.querySelector('#Component6').className = "App-Bike-Move-Backward";
-            // console.log(move)
+            
         }
     }
     
